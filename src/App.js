@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './assets/css/App.css';
+import {BrowserRouter as Router} from 'react-router-dom'
+import { GlobalStyle } from './globalStyle';
+import Main from './components/Main';
+import { SliderData } from './components/Slider/SliderData';
+import Footer from './components/Footer'
+import Feature from './components/Feature';
+import Location from './components/Location';
+import { PhotoData } from './components/About/AboutElements';
+import Collage from './components/Collage';
+import AboutPage from './components/AboutPage';
+import Slider from './components/Slider';
+import About from './components/About';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+function App(){
+  
+    return(
+      <Router>
+        <GlobalStyle/>
+        <Main/>
+        <About picture={PhotoData}/>
+        <AboutPage/>
+        <Collage/>
+        <Feature/>
+        <Slider slides={SliderData}/>
+        <Location/>
+        <Footer/>
+      </Router>
+    )
+  
 }
 
 export default App;

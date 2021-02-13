@@ -3,7 +3,7 @@ import {SliderData, SlideBackground} from './SliderData'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 
 
-const MenuSlider = ({slides}) => {
+const Slider = ({slides}) => {
 
     const [current, setCurrent] = useState(0);
 
@@ -40,4 +40,4 @@ const MenuSlider = ({slides}) => {
     ) 
 }
 
-export default MenuSlider
+export default Slider

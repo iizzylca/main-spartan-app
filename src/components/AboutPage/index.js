@@ -1,11 +1,14 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
 import { AboutContainer, AboutButton, MoreContainer} from './AboutData';
+import {Link} from 'react-router-dom'
+import Collage from '../Collage'
+import Location from '../Location'
 
 
 const AboutPage = () => {
 
     return(
+        <>
         <div className='about-home-page'>
             <AboutContainer className='about-us-page'>
                 <h1 className='pic-title-head'>Know More About Us</h1>
@@ -20,6 +23,8 @@ const AboutPage = () => {
                     </AboutButton>
             </MoreContainer>
         </div>
+        <Location/>
+        </>
     )
     
 

@@ -1,6 +1,6 @@
 import React from 'react'
-import About from '../About'
 import {MainContainer, MainContent, MainItems, MainH1, MainP, MainBtn} from './MainElements'
+import About from '../About'
 import Collage from '../Collage'
 import Location from '../Location'
 // import AboutHome from '../About/AboutHome';

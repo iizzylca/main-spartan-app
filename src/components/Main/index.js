@@ -1,24 +1,17 @@
 import React from 'react'
-import {useState} from 'react'
-import Navbar from '../Navbar'
-import Sidebar from '../Sidebar'
+import About from '../About'
 import {MainContainer, MainContent, MainItems, MainH1, MainP, MainBtn} from './MainElements'
+import Collage from '../Collage'
+import Location from '../Location'
 // import AboutHome from '../About/AboutHome';
 // import { PhotoData } from '../About/AboutElements.js';
 // import Location from '../Location'
 
 
 const Main = () => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-
+    
     return (
         <>
-            <Navbar toggle={toggle}/> 
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
             <div className='main-wrapper'>
                     <MainContainer>
                         <MainContent>
@@ -30,6 +23,9 @@ const Main = () => {
                         </MainContent>
                     </MainContainer>
             </div>
+            <About/>
+            <Collage/>
+            <Location/>
         </>
     )
 } 

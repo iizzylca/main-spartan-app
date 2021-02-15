@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import './assets/css/App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  
-    <App />,
+  <Router>
+      <Route path="/" component={App} />
+  </Router>,
   document.getElementById('root')
 );
 

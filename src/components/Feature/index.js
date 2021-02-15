@@ -1,13 +1,18 @@
 import React from 'react';
 import { FeatureContainer, FeatureButton } from './FeatureElements';
+import Slider from '../Slider'
+import { SliderData } from '../Slider/SliderData';
 
 const Feature = () => {
     return (
-    <FeatureContainer>
-        <h1>Dive In Our Menu</h1>
-        <p>Delicious Food To Fit Your Lifestyle.</p>
-        <FeatureButton>Order Now</FeatureButton>
-    </FeatureContainer>
+        <>
+        <FeatureContainer>
+            <h1>Dive In Our Menu</h1>
+            <p>Delicious Food To Fit Your Lifestyle.</p>
+            <FeatureButton>Order Now</FeatureButton>
+        </FeatureContainer>
+        <Slider slides={SliderData}/>
+        </>
     );
 };
 

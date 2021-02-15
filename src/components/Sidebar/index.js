@@ -8,8 +8,8 @@ const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarMenu>
                 <SidebarLink to='/'>Home</SidebarLink>
-                <SidebarLink to='/'>About</SidebarLink>
-                <SidebarLink to='/'>Menu</SidebarLink>
+                <SidebarLink to='/about'>About</SidebarLink>
+                <SidebarLink to='/menu'>Menu</SidebarLink>
                 <SidebarLink to='/'>Contact</SidebarLink>
             </SidebarMenu>
                 <SideBtnWrap>

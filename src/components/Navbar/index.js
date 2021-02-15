@@ -5,7 +5,7 @@ const Navbar = ({toggle}) => {
     return (
         <Nav>
             <NavLink to='/'>
-                <img className='logo-img' src='https://spartansgrill.com/wp-content/uploads/2020/05/logo.png' alt='logo'></img>
+                <img className='logo-img' src='https://spartansgrill.com/wp-content/uploads/2020/05/logo.png' alt='Spartan Soldier Logo'></img>
             </NavLink>
             <NavIcon onClick={toggle}>
                 <Bars/>

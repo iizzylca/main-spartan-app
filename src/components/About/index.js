@@ -1,10 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import { AboutContainer, AboutText , AboutButton, PhotoData} from './AboutElements';
 
 // import {Link} from 'react-router-dom'
 // import AboutPage from './AboutPage'
 
-const About = () => {
+const AboutHome = () => {
 
     return(
         <AboutContainer>
@@ -13,8 +14,12 @@ const About = () => {
                     <h1 className='h1-tag'>About Us</h1>
                     <p className='p-tag-text'>Spartan’s Grill is a modern and traditional Greek fast food restaurant, it was inspired by one of our co-founders who had the desire to bring high quality Greek fast food to America. Being of Greek descent he understood that sticking to tradition and having fresh ingredients would be the key to our success.</p>
                     <div className='button-wrapper'>
-                        <AboutButton className='read-more-btn' href='#none' to="/menu">Our Menu</AboutButton>
-                        <AboutButton className='read-more-btn' href='#none' to="/about"> Read More</AboutButton>
+                        <AboutButton className='read-more-btn'>
+                            <Link to="/menu">Our Menu</Link>
+                        </AboutButton>
+                        <AboutButton className='read-more-btn'>
+                            <Link  to="/about">Read More</Link>
+                        </AboutButton>
                     </div>
                 </div>
             </AboutText>
@@ -32,4 +37,4 @@ const About = () => {
     
 }
 
-export default About
+export default AboutHome

@@ -23,7 +23,7 @@ const Footer = () => {
                 <p>Copyright © 2021 Spartan's Grill</p>
                 <SocialIcons>
                     <SocialIconLink 
-                    href='//www.facebook.com'
+                    href='https://www.facebook.com/SpartansGrill123/'
                     target='_blank'
                     aria-label='Redirect to Facebook'
                     rel='noopener noreferrer'>

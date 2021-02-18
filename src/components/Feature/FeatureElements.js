@@ -7,7 +7,7 @@ export const FeatureContainer = styled.div`
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     height: 100vh;
     max-height: 100%;
     border-top: 1px solid white;
@@ -26,7 +26,7 @@ export const FeatureContainer = styled.div`
         font-size: clamp(1rem, 3vw, 2rem);
     }
     @media screen and (max-width: 650px) {
-    background-attachment: fixed;
+    background-attachment: initial;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto 100%;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { AboutContainer, AboutButton, MoreContainer} from './AboutData';
 import {Link} from 'react-router-dom'
-import Collage from '../Collage'
+// import Collage from '../Collage'
 import Location from '../Location'
 
 

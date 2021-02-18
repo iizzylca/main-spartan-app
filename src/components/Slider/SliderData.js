@@ -25,4 +25,6 @@ export const SlideBackground = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     
+    
+    
 `

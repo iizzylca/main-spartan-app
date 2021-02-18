@@ -7,6 +7,14 @@ export const MainContainer = styled.div`
     height: 100vh;
     background-position: center;
     background-size: cover;
+    @media screen and (max-width: 650px) {
+        background-attachment: initial;
+        background-position-x: 50%;
+        background-position-y: 0%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
 `;
 
 export const MainContent = styled.div`

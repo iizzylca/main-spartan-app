@@ -23,6 +23,14 @@ export const AboutContainer = styled.div`
     h1 {
         font-size: clamp(3rem, 5vw, 5rem);
     }
+    @media screen and (max-width: 650px) {
+        background-attachment: initial;
+        background-position-x: 50%;
+        background-position-y: 0%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
     
 `;
 

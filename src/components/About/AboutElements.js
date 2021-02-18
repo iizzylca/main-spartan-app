@@ -35,6 +35,12 @@ export const  AboutContainer = styled.div`
     @media screen and (max-width: 650px) {
         flex-direction: column;  
         width: 100%;
+        background-attachment: initial;
+        background-position-x: 50%;
+        background-position-y: 0%;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
         
     }
 `;

@@ -12,6 +12,8 @@ import {
     SocialIcons,
     SocialIconLink
 } from './FooterElement';
+import Logo from '../../images/logo.png'
+
 
 const Footer = () => {
     return (
@@ -19,7 +21,7 @@ const Footer = () => {
         <FooterWrap>
         <SocialMedia>
             <SocialMediaWrap>
-                <SocialLogo to='/'><img className='footer-img' src='https://spartansgrill.com/wp-content/uploads/2020/05/logo.png' alt='Spartan Soldier Logo'></img></SocialLogo>
+                <SocialLogo to='/'><img className='footer-img' src={Logo} alt='Spartan Soldier Logo'></img></SocialLogo>
                 <p>Copyright © 2021 Spartan's Grill</p>
                 <SocialIcons>
                     <SocialIconLink 

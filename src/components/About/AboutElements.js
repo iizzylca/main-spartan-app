@@ -66,7 +66,6 @@ export const AboutWrap = styled.div`
 
 export const AboutH1 = styled.div`
     width: 100%;
-    height: 25%;
     font-size: 60px;
     padding: 0.5rem 2rem;
     text-transform: uppercase;
@@ -74,7 +73,6 @@ export const AboutH1 = styled.div`
 
 export const AboutP = styled.div`
     width: 100%;
-    height: 25%;
     font-size: 25px;
     line-height: 1;
     padding: 0.5rem 2rem;
@@ -91,6 +89,7 @@ export const ButtonWrap = styled.div`
 `;
 
 export const AboutButton = styled.button`
+
     font-size: 1.2rem;
     padding: 0.75rem 1.5rem;
 

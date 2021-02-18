@@ -1,6 +1,7 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from "./SidebarElements";
-const Sidebar = ({isOpen, toggle}) => {
+
+function Sidebar({isOpen, toggle}){
     return (
         <SidebarContainer isOpen={isOpen} onClick={toggle}>
             <Icon onClick={toggle}>
@@ -18,4 +19,4 @@ const Sidebar = ({isOpen, toggle}) => {
     )
 }
 
-export default Sidebar
+export default React.memo(Sidebar)

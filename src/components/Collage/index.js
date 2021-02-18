@@ -12,4 +12,4 @@ const Collage = () => {
     )
 }
 
-export default Collage
+export default React.memo(Collage)

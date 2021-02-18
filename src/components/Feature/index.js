@@ -3,7 +3,7 @@ import { FeatureContainer, FeatureButton } from './FeatureElements';
 import Slider from '../Slider'
 import { SliderData } from '../Slider/SliderData';
 
-const Feature = () => {
+function Feature(){
     return (
         <>
         <FeatureContainer>
@@ -16,4 +16,4 @@ const Feature = () => {
     );
 };
 
-export default Feature;
+export default React.memo(Feature);

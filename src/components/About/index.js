@@ -35,4 +35,4 @@ const AboutHome = () => {
     
 }
 
-export default AboutHome
+export default React.memo(AboutHome)

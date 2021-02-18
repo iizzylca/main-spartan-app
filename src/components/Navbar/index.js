@@ -14,4 +14,4 @@ const Navbar = ({toggle}) => {
     )
 }
 
-export default Navbar
+export default React.memo(Navbar)

@@ -27,7 +27,9 @@ export const FeatureContainer = styled.div`
     }
     @media screen and (max-width: 650px) {
     background-attachment: initial;
-    background-position: center;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: auto 100%;
     }

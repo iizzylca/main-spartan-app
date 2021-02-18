@@ -56,6 +56,7 @@ export const AboutWrap = styled.div`
     width: 100%; 
     height: 100%;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items:  center;
@@ -64,12 +65,16 @@ export const AboutWrap = styled.div`
 `;
 
 export const AboutH1 = styled.div`
+    width: 100%;
+    height: 25%;
     font-size: 60px;
     padding: 0.5rem 2rem;
     text-transform: uppercase;
 `;
 
 export const AboutP = styled.div`
+    width: 100%;
+    height: 25%;
     font-size: 25px;
     line-height: 1;
     padding: 0.5rem 2rem;
@@ -79,7 +84,7 @@ export const AboutP = styled.div`
 
 export const ButtonWrap = styled.div`
     width: 100%;
-    max-height: auto;
+    height: 25%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
